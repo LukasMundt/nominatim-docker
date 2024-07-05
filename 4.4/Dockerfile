@@ -1,7 +1,7 @@
 ARG NOMINATIM_VERSION=4.4.0
 ARG USER_AGENT=mediagis/nominatim-docker:${NOMINATIM_VERSION}
 
-FROM ubuntu:jammy AS build
+FROM cloudron/base:4.2.0@sha256:46da2fffb36353ef714f97ae8e962bd2c212ca091108d768ba473078319a47f4 as build
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV LANG=C.UTF-8

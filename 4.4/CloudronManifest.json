@@ -1,0 +1,21 @@
+{
+  "id": "nominatim",
+  "title": "Nominatim",
+  "author": "Mediagis",
+  "version": "4.4",
+  "healthCheckPath": "/",
+  "httpPort": 80,
+  "manifestVersion": 2,
+  "icon": "osm.png",
+  "addons": {
+    "localstorage": {}
+  },
+  "tags": [
+    "osm"
+  ],
+  "changelog": "file://CHANGELOG",
+  "postInstallMessage": "file://POSTINSTALL.md",
+  "multiDomain": false,
+  "memoryLimit": 524288000,
+  "minBoxVersion": "7.5.1"
+}
